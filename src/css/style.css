@@ -18,6 +18,11 @@ header {
     height: 80px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .posicao-container {
     width: 100%;
     height: 100px;
@@ -143,43 +148,69 @@ header {
     height: 682px;
     background-color: rgba(24, 24, 24, 0.7);
 }
-.bn-sobre-container {
-    width: 60%;
-    display: flex;
-    justify-content: center;
-}
-
 .bn-container-sobre {
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 80px;
+    flex-wrap: wrap;
+    gap: 60px;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+
 }
 
-.bn-imagem-container {
+.bn-sobre-container {
     display: flex;
-    justify-content: center;
+    width: 45%;
+    flex-wrap: wrap;
+}
+
+
+.bn-imagem-container {
+    width: 45%;
+    text-align: center;
 }
 
 .bn-imagem-container .bn-imagem-eu {
-    width: 50%;
 }
 
 .bn-imagem-container .bn-imagem-eu img {
-    width: 286px;
-    margin: 100px 0;
+    width: 246px;
 }
 
 
 .bn-sobre-mim {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 45%;
-    margin: 100px 0;
+    margin-top: 30px;
 } 
 
 .bn-sobre-mim .bn-quem-sou-eu {
+    margin-bottom: 20px;
+}
+
+.bn-h3-sobre {
+    margin-bottom: 25px;
+}
+
+.bn-p-sobre {
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.posicao-btn-curriculo {
+
+}
+
+.posicao-btn-curriculo .btn-link-curriculo {
+    background: linear-gradient(90deg, #44D374 0%, #32F484 100%);
+    border-radius: 5px;
+    width: 102px;
+    height: 40px;
+    border: none;
+    margin: 40px 0;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
 }
 
 
