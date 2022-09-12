@@ -332,9 +332,11 @@ a {
 }
 
 .css {
-    border-bottom: 10px solid #039BE5;;
+    border-bottom: 10px solid #039BE5;
+    ;
     background: rgba(0, 65, 102, 0.15);
 }
+
 .js {
     border-bottom: 10px solid #FFD600;
     background: rgba(88, 74, 1, 0.15);
@@ -362,6 +364,83 @@ a {
     margin-left: 10px;
 
 }
+
+
+#sessao-projetos {
+    width: 100%;
+    height: 2289px;
+    margin-top:  200px;
+    background-color: #000;
+    
+}
+
+.titulo-projetos {
+    padding: 50px;
+}
+
+.titulo-projetos h2 {
+    text-align: center;
+}
+
+.container-projetos {
+    width: 100%;
+}
+
+.posicao-projetos {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: #151515;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container-projetos .posicao-projetos .meta-container {
+    padding: 20px;
+}
+
+.container-projetos .posicao-projetos .meta-container .posicao-imagem {
+    text-align: center;
+}
+
+.container-projetos .posicao-projetos .meta-container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.3s;
+
+}
+
+.container-descricao {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.container-descricao h3, p {
+    padding: 10px;
+    text-align: left;
+}
+
+.posicao-descricao-do-projeto {
+
+}
+
+.posicao-imagens-com-links {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.container-descricao .posicao-descricao-do-projeto .posicao-imagens-com-links img {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
 
 @media (max-width: 550px) {
 
@@ -404,6 +483,13 @@ a {
         text-align: left;
     }
 
+    .bn-sessao-posicao p {
+        text-align: left;
+    }
+
+    .container-descricao h3, p {
+        text-align: left;
+    }
 
     .posicao-button {
         margin: 0 auto;
