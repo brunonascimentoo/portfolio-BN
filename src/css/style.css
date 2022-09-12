@@ -324,7 +324,6 @@ a {
 }
 
 .stacks img:hover {
-    transform: scale(1.2);
     transform: rotate(360deg);
 }
 
@@ -530,7 +529,6 @@ a {
     }
 
     .stacks img:hover {
-        transform: scale(1.2);
         transform: rotate(360deg);
     }
 }
