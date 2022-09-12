@@ -434,6 +434,17 @@ a {
 
 @media (max-width: 550px) {
 
+    .posicao-container-lista {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 15px 10px;
+    }
+    
+    .posicao-container-lista .posicao-lista {
+        margin: 0;
+
+    }
 
     .posicao-container-lista .posicao-lista nav ul li {
         margin-right: 35px;
@@ -486,8 +497,17 @@ a {
     }
 
     .bn-container-sobre {
-        display: flex;
-        flex-direction: column;
+        display: block;
+    }
+
+    .bn-h3-sobre {
+        text-align: center;
+    }
+
+    .bn-sobre-container {
+        padding-top: 15px;
+        width: 50%;
+        margin: 0 auto;
     }
 
     .bn-imagem-container {
@@ -502,5 +522,9 @@ a {
 
     .posicao-projetos {
         margin: 0;
+    }
+
+    #sessao-projetos {
+        height: 1590px;
     }
 }
