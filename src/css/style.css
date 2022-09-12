@@ -432,7 +432,7 @@ a {
 }
 
 
-@media (max-width: 550px) {
+@media screen and (max-width: 550px) {
 
     .posicao-container-lista {
         display: flex;
@@ -468,6 +468,11 @@ a {
         margin-top: 50px;
     }
 
+    .container-descricao h3, p {
+        text-align: left;
+        padding: 0;
+    }
+
     #bn-sessao-sobre {
         height: 810px;
     }
@@ -500,10 +505,6 @@ a {
         display: block;
     }
 
-    .bn-h3-sobre {
-        text-align: center;
-    }
-
     .bn-sobre-container {
         padding-top: 15px;
         width: 50%;
@@ -511,12 +512,6 @@ a {
     }
 
     .bn-imagem-container {
-        margin-left: 45px;
-        margin-top: 100px;
-        margin: 0 auto;
-    }
-
-    .bn-sobre-mim {
         margin: 0 auto;
     }
 
