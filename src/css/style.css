@@ -103,6 +103,13 @@ a {
     padding: 50px;
 }
 
+.bn-sessao-posicao p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 0;
+}
+
 .bn-sessao-posicao .bn-hello {
     white-space: nowrap;
 }
@@ -120,11 +127,6 @@ a {
     margin: 21px 0;
 }
 
-.bn-sessao-posicao p {
-    font-weight: 400;
-    font-size: 18px;
-    margin: 10px 0;
-}
 
 .bn-lado-imagem {
 
