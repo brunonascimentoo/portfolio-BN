@@ -11,6 +11,7 @@ html {
     background-color: #151515;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -175,8 +176,6 @@ a {
     text-align: center;
 }
 
-.bn-imagem-container .bn-imagem-eu {}
-
 .bn-imagem-container .bn-imagem-eu img {
     width: 246px;
 }
@@ -198,8 +197,6 @@ a {
     line-height: 20px;
     letter-spacing: 1px;
 }
-
-.posicao-btn-curriculo {}
 
 .posicao-btn-curriculo .btn-link-curriculo {
     background: linear-gradient(90deg, #44D374 0%, #32F484 100%);
@@ -384,6 +381,7 @@ a {
 
 .container-projetos {
     width: 100%;
+    margin: 20px;
 }
 
 .posicao-projetos {
@@ -436,10 +434,6 @@ a {
     width: 25px;
     height: 25px;
 }
-
-
-
-
 
 
 @media (max-width: 550px) {
@@ -508,5 +502,9 @@ a {
 
     .bn-sobre-mim {
         margin: 0 auto;
+    }
+
+    .posicao-projetos {
+        margin: 0;
     }
 }
