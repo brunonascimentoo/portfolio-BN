@@ -1,29 +1,23 @@
-const home = document.querySelectorAll('li');
+const links = document.querySelectorAll('.menu a[href^="#"]');
 
-function scrollTo(e) {
-    e.preventDefault();
-    console.log(e)
+function pegaDistaciaDoTopo(e) {
+    const id = e.getAttribute('href');
+    return document.querySelector(id).offsetTop;
 }
 
-home.forEach((link) => {
-    link.addEventListener('click', scrollTo);
+function scrollNativo(distaciaDoTopo) {
+    window.scroll({
+        top: distaciaDoTopo,
+        behavior: 'smooth',
+    });
+}
+
+function scrollParaSessao(e) {
+    e.preventDefault();
+    const distanciaDoTopo = pegaDistaciaDoTopo(e.target) - 90;
+    scrollNativo(distanciaDoTopo)
+}
+
+links.forEach((link) => {
+    link.addEventListener('click', scrollParaSessao);
 });
-
-
-
-// const p = document.querySelector('.bn-p-sobre')
-// const posicao = p.getBoundingClientRect();
-// console.log(posicao)
-
-// home.addEvenetListener('click', () => window.scrollTo({
-//     top: 161,
-//     behavior: 'smooth'
-// }) )
-
-// home.addEvenetListener('click', e => {
-//     const el = e.target;
-
-//     if(el === home) {
-//         window.scroll
-//     }
-// })
