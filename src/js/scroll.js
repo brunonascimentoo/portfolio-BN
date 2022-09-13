@@ -21,3 +21,4 @@ function scrollParaSessao(e) {
 links.forEach((link) => {
     link.addEventListener('click', scrollParaSessao);
 });
+
