@@ -307,6 +307,16 @@ a {
     background: rgba(255, 214, 0, 0.15);
 }
 
+.stacks .circulo-jquery {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(19, 2, 255, 0.144);
+}
+
 .stacks .circulo-react {
     width: 70px;
     height: 70px;
@@ -316,6 +326,37 @@ a {
     justify-content: center;
     background: rgba(64, 196, 255, 0.15);
 }
+
+.stacks .circulo-bootstrap {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(140, 0, 255, 0.15);
+}
+
+.stacks .circulo-git {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 94, 0, 0.212);
+}
+
+.stacks .circulo-java {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 0, 0, 0.212);
+}
+
 
 .stacks img {
     top: 15px;
@@ -347,15 +388,35 @@ a {
 
 }
 
+.jquery {
+    border-bottom: 10px solid #0049e7;
+    background: rgba(0, 68, 255, 0.15);
+}
+
 .react {
     border-bottom: 10px solid #40C4FF;
     background: rgba(29, 83, 109, 0.15);
 
 }
 
+.bootstrap {
+    border-bottom: 10px solid #5001ce;
+    background: rgba(93, 0, 180, 0.15);
+}
+
+.git {
+    border-bottom: 10px solid #ff6600;
+    background: rgba(255, 115, 0, 0.15);
+}
+
+.java {
+    border-bottom: 10px solid #ff1313ec;
+    background: rgba(0, 38, 255, 0.15);
+}
+
 .p-titulo-stack {
-    margin-top: 20px;
-    margin-left: 10px;
+    margin-top: 10px;
+    margin-left: 2px;
 }
 
 .p-descricao {
@@ -364,8 +425,8 @@ a {
     line-height: 18px;
     letter-spacing: 1px;
     text-align: left;
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 15px;
+    margin-left: 2px;
 
 }
 
