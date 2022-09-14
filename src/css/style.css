@@ -183,10 +183,15 @@ a {
 .bn-imagem-container .bn-imagem-eu {
     display: flex;
     justify-content: center;
+    padding-top: 50px;
 }
 
 .bn-imagem-container .bn-imagem-eu img {
     width: 246px;
+    border-radius: 10px;
+    border-left: 10px solid #32F484;
+    border-bottom: 10px solid #32F484;
+
 }
 
 
