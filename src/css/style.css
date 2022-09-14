@@ -275,7 +275,7 @@ a {
 
 .centralizando-stacks {
     display: flex;
-    width: 90%;
+    width: 85%;
     flex-wrap: wrap;
     margin: 0 auto;
 }
